@@ -5,10 +5,10 @@
 </div>
 
 ## Thought process - 
-* First i created an express server with some basic necessary setup.
+* First I created an express server with some basic necessary setup.
 * Used mongo atlas URI for database connection.
 * Splitted app and server so the code is maintainable and easy to read.
-* Started working on CRUD operations for Professor as to implement authentication i need to have users.
+* Started working on CRUD operations for Professor as to implement authentication I need to have users.
 * Implemented crypto package provided by node for one-way password hashing.
 * Used uuid for salt generation. (Other option - Use Date function and convert it to string)
 * Then for subject used reference for professor and alternate professor. As find operations are faster with object Id in mongoDB.
